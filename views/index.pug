@@ -1,0 +1,48 @@
+doctype html 
+html 
+  head 
+    title Pawan Dance Academy
+    style 
+        include ../static/style.css 
+  body 
+    nav#navbar
+      ul 
+        li #[a(href='/') Home]
+        li #[a(href='/') About]
+        li #[a(href='/') Services]
+        li #[a(href='/') Class Info] 
+        li #[a(href='/') Contact Us ]
+      
+    section#introSection 
+      div  Welcome to Pawan Dancing Club 
+      div.small Learn With Fun
+
+    section#missionSection 
+      h2 Mission
+      div.card.card1 
+        h3  Dance Perfection
+        div.box
+          img(src="/static/d1.png", alt="img")
+          div.line This is the best dance Academy of the delhi 
+      div.card.card2 
+        h3  Dance the way you like
+        div.box
+          img(src="/static/d2.png", alt="img")
+          div.line This is the best dance Academy of the delhi 
+      div.card.card3 
+        h3  Learn with enjoy
+        div.box
+          img(src="/static/d3.jpg", alt="img")
+          div.line This is the best dance Academy of the delhi 
+
+    section#sponsorsSection
+      h2 Section for sponsors
+      div.sponsorlogo
+        img(src="/static/logo1.jpg", alt="logo" class="logo")
+        img(src="/static/logo2.png", alt="logo" class="logo")
+        img(src="/static/logo3.jpg", alt="logo" class="logo")
+        img(src="/static/logo4.png", alt="logo" class="logo")
+    footer#footer 
+      | Copyright 2021 PawanDanceAcademy.com | All Rights Reserved
+    script 
+        inlude ../static/script.js

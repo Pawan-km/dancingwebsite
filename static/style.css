@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    background-color: #d64b2b;
+    padding: 17px 8px;
+}
+
+#navbar ul{
+    display: flex;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 7px 32px;
+    font-size: 17px;
+    color: white;
+    font-weight: bolder;
+}
+
+#navbar li a:hover {
+    color: black;
+    font-weight: bolder;
+}
+
+
+#introSection{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 77px;
+    height: 300px;
+    background: url("/static/bg2.jpg") center/cover no-repeat;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 33px;
+}
+
+#introSection div.small{
+    font-size:30px;
+}
+
+#missionSection{
+    height: 300px;
+    /* background-color: yellow; */
+}
+
+.card{
+    border: 2px solid black;
+    margin: 14px 9px;
+    width: 32%;
+    height: 213px;
+    border-radius: 11px;
+    display: inline-block;
+    background-color: #e5e5ec;
+    padding: 11px 11px;
+}
+
+.card h3{
+    text-align: center;
+}
+
+
+#missionSection h2{
+    text-align: center;
+    padding-top: 22px;
+}
+#sponsorsSection{
+    height: 300px;
+    background-color: yellow;
+}
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 22px;
+}
+h2{
+    font-size: 30px;
+    /* padding-top: 13px; */
+}
+
+.box{
+    display: flex;
+}
+img{
+    height: 138px;
+    padding-top: 13px;
+}
+
+.line{
+    padding: 38px 51px;
+    font-size: 22px;
+    
+}
+.sponsorlogo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.logo{
+    height: 230px;
+    padding: 22px 33px;
+}
+
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    /* height: 100px; */
+    padding: 22px 3px;
+    background-color: black;
+    color: white;
+}
